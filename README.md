@@ -1,6 +1,6 @@
 # URL Shortener
 
-A modern, mobile-friendly URL shortener built with **Go (backend)**, **Redis (storage)**, and **Tailwind CSS (frontend)**.
+A modern, mobile-friendly URL shortener built with **Go (backend)**, **Redis (storage)**, and **React (frontend)**.
 
 ## ✨ Features
 
