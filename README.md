@@ -17,9 +17,7 @@ A modern, mobile-friendly URL shortener built with **Go (backend)**, **Redis (st
 
 ### 1. Prerequisites
 
-- Make sure you have go installed [Go](https://go.dev/doc/install)
-- [Node.js and npm](https://nodejs.org/)
-- [Redis](https://redis.io/)
+- Make sure you have [Go](https://go.dev/doc/install]), [Node.js](https://nodejs.org/), and [Redis](https://redis.io/) installed
 
 #### ✅ Installing Redis Locally
 
@@ -30,10 +28,8 @@ A modern, mobile-friendly URL shortener built with **Go (backend)**, **Redis (st
   
 ### 2. Run Locally
 
-#### Backend (Go)
-# Clone the repo
-git clone https://github.com/your-username/url-shortener.git
-cd url-shortener
+#### Backend (Go
+clone this repo and cd into project folder 
 
 # Start Redis if not already running
 redis-server & use redis-cli ping should return PONG if server is active
