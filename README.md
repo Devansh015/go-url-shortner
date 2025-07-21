@@ -15,36 +15,28 @@ A modern, mobile-friendly URL shortener built with **Go (backend)**, **Redis (st
 
 ## 🚀 Getting Started
 
-### 1. Prerequisites
+### 1. Run Locally
 
-- Make sure you have [Go](https://go.dev/doc/install]), [Node.js](https://nodejs.org/), and [Redis](https://redis.io/) installed
+#### Backend (Go)
 
-#### ✅ Installing Redis Locally
+1. Make sure you have [Go](https://go.dev/doc/install]), [Node.js](https://nodejs.org/), and [Redis](https://redis.io/) installed
+2. Clone this repo and cd into project folder
+3. Start redis using:
+      ```
+      redis-server & check server is active with redis-server cli should return PONG
+4. Run:
+   ```sh
+   go run main.go
+   ```
+5. The server will start on `http://localhost:9808`
 
-- **macOS**:
-  ```sh
-  brew install redis
-  brew services start redis
-  
-### 2. Run Locally
 
-#### Backend (Go
-clone this repo and cd into project folder 
+#### Frontend
+1. cd frontend
 
-# Start Redis if not already running
-redis-server & use redis-cli ping should return PONG if server is active
+2. npm install
 
-# Run the Go server
-go run main.go
-
-# Navigate to the frontend directory (if applicable)
-cd frontend
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm start
+3. npm start
 
 ## Credits
 - Built by Devansh Jain
