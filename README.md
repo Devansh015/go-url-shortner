@@ -2,18 +2,16 @@
 
 A modern, mobile-friendly URL shortener built with **Go (backend)**, **Redis (storage)**, and **React (frontend)**.
 
-## ✨ Features
+##  Features
 
-- 🔗 Shorten long URLs to easy-to-share short links
-- 📱 Responsive, clean UI inspired by modern SaaS design
-- 📋 Copy-to-clipboard button for short URLs
-- ℹ️ Info popup explaining the app
-- ⚡ Redis-based in-memory storage
-- 🌐 CORS enabled for smooth deployment with static frontends
-
+-  Shorten long URLs to easy-to-share short links
+-  Responsive, clean UI inspired by modern SaaS design
+-  Copy-to-clipboard button for short URLs
+-  Info popup explaining the app
+-  Redis-based in-memory storage
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Run Locally
 
@@ -32,11 +30,25 @@ A modern, mobile-friendly URL shortener built with **Go (backend)**, **Redis (st
 
 
 #### Frontend
-1. cd frontend
+- cd frontend
 
-2. npm install
+- npm install
 
-3. npm start
+- npm start
+  
+- Server should start on `http://localhost:3000`
+
+### 2. Deploy to Production
+
+#### Backend
+- Deploy `main.go` to a platform that supports Go web servers (Railway, Render, Fly.io, etc.)
+- Make sure the backend is accessible at a public URL (e.g., `https://url-shortener-production-8c28.up.railway.app/`)
+- CORS is enabled by default
+
+  ## Customization
+- To persist URLs, connect the Go backend to a database (e.g., SQLite, PostgreSQL, Redis)
+- To change the UI, edit `App.js` and use Tailwind utility classes
+
 
 ## Credits
 - Built by Devansh Jain
