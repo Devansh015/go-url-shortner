@@ -17,7 +17,7 @@ A modern, mobile-friendly URL shortener built with **Go (backend)**, **Redis (st
 
 ### 1. Prerequisites
 
-- [Go](https://go.dev/doc/install)
+- Make sure you have go installed [Go](https://go.dev/doc/install)
 - [Node.js and npm](https://nodejs.org/)
 - [Redis](https://redis.io/)
 
