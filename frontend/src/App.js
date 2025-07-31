@@ -120,6 +120,15 @@ const App = () => {
               </button>
             </div>
           </div>
+          
+          <button
+            type="submit"
+            className="shorten-button"
+            disabled={loading || !longUrl}
+            aria-label="Shorten URL"
+          >
+            {loading ? "Shortening..." : "Shorten URL"}
+          </button>
         </form>
 
         <div className="error-message">{error}</div>

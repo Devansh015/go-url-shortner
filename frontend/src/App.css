@@ -244,6 +244,39 @@
     opacity: 0.5;
     cursor: not-allowed;
     transform: none;
+  }
+
+  .shorten-button {
+    width: 100%;
+    background: linear-gradient(135deg, var(--text-secondary) 0%, var(--text-primary) 100%);
+    border: none;
+    border-radius: 16px;
+    padding: 1rem 2rem;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 16px rgba(99, 102, 241, 0.2);
+    margin-top: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .shorten-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(99, 102, 241, 0.3);
+  }
+
+  .shorten-button:active {
+    transform: translateY(0);
+  }
+
+  .shorten-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: 0 4px 16px rgba(99, 102, 241, 0.1);
   }  .arrow-button {
     margin-left: 0.5rem;
     background: linear-gradient(90deg, #6366f1 0%, #60a5fa 100%);
@@ -417,6 +450,12 @@
 
     .clear-button {
       padding: 0.75rem 1.5rem;
+    }
+
+    .shorten-button {
+      margin-top: 1.25rem;
+      padding: 1rem 1.5rem;
+      font-size: 1rem;
     }
     
     .url-box {
